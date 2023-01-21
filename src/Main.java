@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String args[]){
-        System.out.println("Still being fucked with");
+        CSV c = new CSV("src/MOCK_DATA.csv");
+        c.commit_changes();
     }
 }

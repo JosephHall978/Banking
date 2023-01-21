@@ -20,7 +20,7 @@ public class Client extends Money{
                 ", lastName='" + lastName + '\'' +
                 ", date='" + date + '\'' +
                 ", pronouns=" + pronouns +
-                '}' + super.toString();
+                "}\n" + super.toString();
     }
 
     //getters

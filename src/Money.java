@@ -22,8 +22,13 @@ public class Money {
         return true;
     }
     public boolean setOverdraft(@NotNull double amount){
-        this.overdraft = amount;
-        return true;
+        if(amount > 0) {
+            this.overdraft = amount;
+            return true;
+        }
+        else{
+            return false;
+        }
     }
     public double getBalance(){
         return balance;
